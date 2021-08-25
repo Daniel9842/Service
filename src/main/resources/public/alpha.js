@@ -7,7 +7,6 @@ console.log(id);
 const requestURL = 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=' + id + '&apikey=3A320OI0SQZ06SKJ';
 fetch(requestURL)
 	.then(response => response.text())
-	.then
 	.then(data => console.log(data));
 	
 
